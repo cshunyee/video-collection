@@ -1,1 +1,1 @@
-web: gunicoron hofvidz.wsgi
+web: gunicorn hofvidz.wsgi
