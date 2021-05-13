@@ -10,10 +10,9 @@ from django.http import Http404, JsonResponse
 from django.forms.utils import ErrorList
 from .models import Hall, Video
 from .forms import VideoForm, SearchForm
+from .env_variable import YOUTUBE_API_KEY
 import urllib
 import requests
-
-YOUTUBE_API_KEY = 'AIzaSyBkP2WremPYF7IiIiDmDKlHDg_CsuvupE4'
 
 def home(request):
     recent_halls = Hall.objects.all().order_by('-id')[:3]

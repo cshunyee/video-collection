@@ -1,1 +1,1 @@
-web: gunicorn hofvidz-project.wsgi
+web: gunicorn hofvidz.wsgi --log-file -
