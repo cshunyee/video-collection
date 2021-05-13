@@ -25,7 +25,7 @@ SECRET_KEY = 'x3c1!-l%ko1)=2a^p7+6_6dt4$mgb#aoyp%5p3u3p0lkv)^al9'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['my-video-collection.herokuapp.com']
 
 LOGIN_URL = 'login'
 LOGIN_REDIRECT_URL = 'home'
