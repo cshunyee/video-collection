@@ -73,6 +73,7 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'hofvidz.wsgi.application'
+X_FRAME_OPTIONS = 'SAMEORIGIN'
 
 
 # Database
