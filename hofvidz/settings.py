@@ -25,7 +25,7 @@ SECRET_KEY = 'x3c1!-l%ko1)=2a^p7+6_6dt4$mgb#aoyp%5p3u3p0lkv)^al9'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['my-video-collection.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['my-video-collection.herokuapp.com', '127.0.0.1']
 
 LOGIN_URL = 'login'
 LOGIN_REDIRECT_URL = 'home'
@@ -73,7 +73,7 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'hofvidz.wsgi.application'
-X_FRAME_OPTIONS = 'SAMEORIGIN'
+X_FRAME_OPTIONS = 'ALLOW-FROM https://cshunyee.pythonanywhere.com/#!/video-collection'
 
 
 # Database
