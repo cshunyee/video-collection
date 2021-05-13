@@ -1,1 +1,1 @@
-web: gunicorn hofvidz-project.wsgi
+web: gunicorn hofvidz-project.wsgi:application --log-file - --log-level debug
